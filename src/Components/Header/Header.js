@@ -24,7 +24,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="header_right">
-         <ul>
+         <ul className="icon">
               <il><SearchIcon/></il>  
                <li><NotificationsNoneIcon/></li>
               <li><AccountBoxIcon /></li>

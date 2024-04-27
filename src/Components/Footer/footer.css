@@ -1,6 +1,7 @@
-.footer_outer_container{
+ .footer_outer_container{
     background-color: black;
     color: gray;
+    display: flex;
     justify-content: center;
     color: white;
 }
@@ -8,28 +9,60 @@
      width: 60; 
 } 
 .footer_icon{
-    width: 12%;
+ padding-left: 0;
+ padding-right: 0%;
     display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 20px;
     color: white;
-    align-items: center;
+    /* align-items: center; */
     list-style: none;
+}
+.icons{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px;
+
+
+
 }
 .footer_data{
     display: flex;
     justify-content: space-between;
+    list-style: none;
+    width: 40%; 
+     
+ }
+.footer-data-one li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+  
+}
+
+
+.footer-one ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 7px;
 }
 .footer_data ul li{
     list-style: none;
     display: flex;
-    /* flex-direction:  */
-}
-.footer_li {
-    list-style: none;
-    display: flex;
+   
+ }
+ .footer-one{
     justify-content: space-around;
+ }
+.footer_li {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    
+
 
 }
 .Service_Code{
@@ -44,4 +77,4 @@
 .copy_write{
     font-size: 12px;
     margin-bottom: 10px;
-}
+} 

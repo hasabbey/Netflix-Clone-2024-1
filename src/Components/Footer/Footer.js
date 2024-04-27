@@ -8,33 +8,38 @@ const Footer= () => {
     <div className="footer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icon">
-          <FacebookOutlinedIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
+          <div className='icons'> < FacebookOutlinedIcon /></div>
+          <div className='icons'> < InstagramIcon /></div>
+          <div className='icons'><YouTubeIcon /></div>
+         
+         
+          
         </div>
         <div className="footer_li">
           <div className="footer_data">
-            <ul>
+            <ul className='footer-data-one'>
+
+              
               <li>Audio Descrption</li>
               <li>Investor Relations</li>
               <li>Legal Notice</li>
             </ul>
           </div>
-          <div>
+          <div className='footer-one'>
             <ul>
               <li>Help Center</li>
               <li>Jobs</li>
               <li>Cooie preferences</li>
             </ul>
           </div>
-          <div>
+          <div className='footer-one'>
             <ul>
               <li>Gift Cards</li>
               <li>Terms of Use</li>
               <li>Corporate information</li>
             </ul>
           </div>
-          <div>
+          <div className='footer-one'>
             <ul>
               <li>Media</li>
               <li>Privacy</li>
