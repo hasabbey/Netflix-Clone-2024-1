@@ -6,7 +6,9 @@
     color: white;
 }
  .footer_inner_container{ 
-     width: 60; 
+     width: 60%; 
+    
+     
 } 
 .footer_icon{
  padding-left: 0;
@@ -16,30 +18,19 @@
     margin-left: 10px;
     margin-bottom: 20px;
     color: white;
-    /* align-items: center; */
-    list-style: none;
+     list-style: none;
 }
 .icons{
     margin-left: 10px;
     margin-right: 10px;
     padding: 7px;
-
-
-
-}
-.footer_data{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    width: 40%; 
-     
  }
+
 .footer-data-one li {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     list-style: none;
     padding: 10px;
-  
 }
 
 
@@ -47,31 +38,23 @@
     display: flex;
     justify-content: space-between;
     list-style: none;
-    padding: 7px;
-}
-.footer_data ul li{
-    list-style: none;
-    display: flex;
-   
- }
- .footer-one{
-    justify-content: space-around;
- }
+    padding: 10px;
+} 
+ 
 .footer_li {
     display: flex;
     justify-content: space-between;
     list-style: none;
-    
-
-
-}
+  } 
 .Service_Code{
     display: flex;
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width: 10%;
+    width: 120px;
     margin: 10px 0;
+    padding: 10px 0; 
+    margin-left: 4px;
     cursor: pointer;
 }
 .copy_write{
