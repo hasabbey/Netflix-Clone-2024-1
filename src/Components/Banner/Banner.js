@@ -2,11 +2,14 @@ import React, { useEffect } from 'react'
 import { useState } from 'react';
 import axios from '../../Utils/axios';
 import requests from '../../Utils/requests';
-import url from '../../Utils/url';
+import './Banner.css'
+
 
 const Banner = () => {
     const [movie, setMovie] = useState({});
+    
     useEffect(() => {
+  
         (async () => {
             try {
                 const request = await axios.get(requests.fetchNetflixOriginals);
@@ -30,7 +33,7 @@ const Banner = () => {
         className="banner"
         style={{
           backgroundSize: "cover",
-          backgroundImage: url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"),
+          backgroundImage: `url("https://image.tmdb.org/t/p/original/${movie?.backdrop_path}")`,
           backgroundPosition: "center center",
           backgroundRepeat: "no-repeat",
           height: "63vh",
@@ -41,10 +44,17 @@ const Banner = () => {
           <h1 className="title">
             {movie?.title || movie?.name || movie?.original_name}
           </h1>
+         {/* <div>
+          document.getElementById("myButton").onclick = function() {
+  alert("Button clicked!") */}
+
           <div className="banner_buttons">
-            <button className="button button1" >Play</button>
-            <button className="button button2">My List</button>
+            
+            <button className="my-button" >Play</button>
+            <button className="my-button">My List</button>
           </div>
+          {/* </div> */}
+          {/* <h1 className="description">{movie?.overview}</h1> */}
           <h1 className="description">{truncate(movie?.overview, 150)}</h1>
         </div>
         <div className="fade_bottom"></div>
