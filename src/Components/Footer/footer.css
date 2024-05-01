@@ -26,6 +26,7 @@
     padding: 7px;
  }
 
+
 .footer-data-one li {
     display: flex;
     justify-content: space-evenly;
@@ -51,10 +52,8 @@
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width: 120px;
+    width: 110px;
     margin: 10px 0;
-    padding: 10px 0; 
-    margin-left: 4px;
     cursor: pointer;
 }
 .copy_write{
