@@ -27,36 +27,36 @@
  }
 
 
-.footer-data-one li {
+ .footer-data-one li {
     display: flex;
-    justify-content: space-evenly;
+   justify-content: space-between;
     list-style: none;
     padding: 10px;
-}
-
-
+} 
+ 
+ 
 .footer-one ul li {
     display: flex;
     justify-content: space-between;
     list-style: none;
     padding: 10px;
-} 
- 
+}  
+  
 .footer_li {
     display: flex;
     justify-content: space-between;
     list-style: none;
-  } 
+  }  
 .Service_Code{
     display: flex;
     align-items: center;
     justify-content: center;
     border: #fff 1px solid;
-    width: 110px;
+    width: 100px;
     margin: 10px 0;
     cursor: pointer;
 }
 .copy_write{
-    font-size: 12px;
-    margin-bottom: 10px;
+    font-size: 10px;
+    margin-bottom: 15px;
 } 

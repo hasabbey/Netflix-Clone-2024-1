@@ -20,8 +20,8 @@ function Row  ({ title, fetchUrl, isLargeRow }) {
       }
     };
 
-    fetchData(); // Call the fetchData function inside useEffect
-  }, [fetchUrl]); // Add fetchUrl as a dependency to re-run useEffect when it changes
+    fetchData(); 
+  }, [fetchUrl]); 
 const opts = {
   height: "390",
   width: "100%",
