@@ -1,6 +1,6 @@
 import React from 'react'
 import Row from '../../../Components/Rows/Row/Row'
-import requests from '../../../../src/utils/requests'
+import requests from '../../../../src/Utils/requests'
 const RowList = () => {
   return (
     <>
